@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryCalvar_20250509
 {
-    public partial class Form1 : Form
+    public partial class frmClubs : Form
     {
-        public Form1()
+        public frmClubs()
         {
             InitializeComponent();
 
@@ -26,15 +26,15 @@ namespace pryCalvar_20250509
         {
             if (cboClubes.SelectedIndex == 0)
             {
-                pbFotosClub.Load();
+                pbFotosClub.Image = Properties.Resources.boca;
             }
             else if (cboClubes.SelectedIndex == 1)
             {
-
+                pbFotosClub.Image = Properties.Resources.riber;
             }
             else if (cboClubes.SelectedIndex == 2)
             {
-
+                pbFotosClub.Image = Properties.Resources.instituto;
             }
         }
     }

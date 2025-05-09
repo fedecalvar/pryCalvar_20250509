@@ -1,6 +1,6 @@
 ﻿namespace pryCalvar_20250509
 {
-    partial class Form1
+    partial class frmClubs
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -36,6 +36,7 @@
             // 
             // cboClubes
             // 
+            this.cboClubes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboClubes.FormattingEnabled = true;
             this.cboClubes.Location = new System.Drawing.Point(28, 29);
             this.cboClubes.Name = "cboClubes";
@@ -54,13 +55,14 @@
             // 
             // pbFotosClub
             // 
-            this.pbFotosClub.Location = new System.Drawing.Point(28, 78);
+            this.pbFotosClub.Location = new System.Drawing.Point(28, 56);
             this.pbFotosClub.Name = "pbFotosClub";
             this.pbFotosClub.Size = new System.Drawing.Size(443, 360);
+            this.pbFotosClub.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbFotosClub.TabIndex = 2;
             this.pbFotosClub.TabStop = false;
             // 
-            // Form1
+            // frmClubs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -68,7 +70,7 @@
             this.Controls.Add(this.pbFotosClub);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cboClubes);
-            this.Name = "Form1";
+            this.Name = "frmClubs";
             this.Text = "Elecciòn";
             ((System.ComponentModel.ISupportInitialize)(this.pbFotosClub)).EndInit();
             this.ResumeLayout(false);
